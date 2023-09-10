@@ -59,7 +59,6 @@ function App() {
     document.querySelector(".oneList").append(li);
     document.querySelector(".twoList").append(lis);
   };
-
   return (
     <div className="App">
       <div className="emoji">
