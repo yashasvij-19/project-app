@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+body{
+  background-color:rgb(246, 228, 206);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.emoji{
+  margin-left: 20%;
+  padding: 2%;
+}
+.fa-hand-paper, .fa-hand-scissors, .fa-hand-rock{
+color: rgb(241, 241, 32);
+font-size: 150px;
+margin-left: 100px;
+cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fa-hand-paper:hover, .fa-hand-rock:hover, .fa-hand-scissors:hover{
+  border: 5px dotted black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game-section{
+  margin-top: 2%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.oneList, .twoList{
+  list-style-type: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scores{
+  font-size: 3rem;
+  font-family: cursive;
+  font-weight: 700;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
 }
